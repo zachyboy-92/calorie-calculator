@@ -1,0 +1,19 @@
+{
+  "name": "calorie-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachyboy-92/calorie-calculator.git"
+  },
+  "author": "zack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachyboy-92/calorie-calculator/issues"
+  },
+  "homepage": "https://github.com/zachyboy-92/calorie-calculator#readme"
+}

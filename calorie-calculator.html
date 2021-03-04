@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Calorie Calculator</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Calorie Calculator</h1>
+      <div class="age">
+        <label for="age">Age</label>
+        <input
+          type="text"
+          id="age"
+          name="age"
+          placeholder="Please insert age"
+        />
+      </div>
+      <div class="gender">
+        <p>Gender</p>
+        <label for="male">Male</label>
+        <input type="radio" name="male" id="male" />
+        <label for="female">Female</label>
+        <input type="radio" name="female" id="female" />
+      </div>
+      <div class="weight">
+        <label for="weight">Weight</label>
+        <input
+          type="text"
+          id="weight"
+          name="weight"
+          placeholder="Please insert weight in kilograms"
+        />
+      </div>
+      <div class="height">
+        <label for="height">Height</label>
+        <input
+          type="text"
+          id="height"
+          name="height"
+          placeholder="Please insert height in centimeters"
+        />
+      </div>
+      <div class="activity">
+        <label for="activity">Activity</label>
+        <select name="activity" id="activity">
+          <option value="0">No exercise</option>
+          <option value="1">Light exercise</option>
+          <option value="2">Moderate excercise (3-5 days/wk)</option>
+          <option value="3">Very active (6-7 days/wk)</option>
+          <option value="4">Very active & physical job</option>
+        </select>
+      </div>
+
+      <button id="submit-button">Submit</button>
+
+      <div class="calories-result">
+        <h4>Total Calories</h4>
+        <p id="total-calories"></p>
+      </div>
+    </div>
+  </body>
+</html>
